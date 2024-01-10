@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <header>
+        <h1>Car Selling Website</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <!-- <li><a href="signup.html">Signup</a></li> -->
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <!-- Your signup form goes here -->
+        <form id="signupForm">
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <button type="button" onclick="signup()">Signup</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Selling Website</p>
+    </footer>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
