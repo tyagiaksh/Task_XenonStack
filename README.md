@@ -27,3 +27,11 @@ command: ./internsctl.sh file getinfo --owner hello.txt <br/>
 command: ./internsctl.sh file getinfo --last-modified hello.txt <br/>
 <img width="959" alt="Screenshot 2024-01-10 125029" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/0ac43deb-826f-4d97-9a76-9f9baa91c861"> <br/>
 
+#TASK 2 <br/>
+In this task we have to 
+1. Design Minimum 3 Pages as per Theme of your choice.<br/> <img width="960" alt="Screenshot 2024-01-10 162229" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/22efcfc6-17b6-4f6f-8535-616f5be16277"> <br/>
+
+2. Create a Login and Logout flow which will be connected with Database <br/> <img width="960" alt="Screenshot 2024-01-10 162329" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/31da166e-8c83-4af5-8ae2-96f5d8b7dc6e"> <br/>
+
+3. Create a Contact US Page. The form submission data should be connected to Database <br/> <img width="960" alt="Screenshot 2024-01-10 164948" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/ce40e18c-2dd8-4132-8a1c-8e3fd5bcc7a6"> <br/>
+
