@@ -18,4 +18,12 @@ Part2 | Level Intermediate <br/>
 command: ./internsctl.sh user create Akash <br/>
 command: ./internsctl.sh user list <br/>
 command: ./internsctl.sh user list --sudo-only <br/>
-<img width="960" alt="Screenshot 2024-01-10 123732" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/060572fd-1c6c-46dd-a08c-293715dffdaa">
+<img width="960" alt="Screenshot 2024-01-10 123732" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/060572fd-1c6c-46dd-a08c-293715dffdaa"> <br/>
+Part3 | Advanced Level <br/>
+command: ./internsctl.sh file getinfo hello.txt   <br/>
+command: ./internsctl.sh file getinfo --size hello.txt <br/>
+command: ./internsctl.sh file getinfo --permissions hello.txt <br/>
+command: ./internsctl.sh file getinfo --owner hello.txt <br/>
+command: ./internsctl.sh file getinfo --last-modified hello.txt <br/>
+<img width="959" alt="Screenshot 2024-01-10 125029" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/0ac43deb-826f-4d97-9a76-9f9baa91c861"> <br/>
+
