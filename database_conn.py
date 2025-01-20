@@ -10,13 +10,14 @@ class DatabaseConfig(BaseModel):
   
 def connect_to_db():
     try:
-        connection = psycopg2.connect(
-            dbname=db_config.dbname,
-            user=db_config.user,
-            password=db_config.password,
-            host=db_config.host,
-            port=db_config.port
-        )
+       
+        # connection = psycopg2.connect(
+        #     dbname=db_config.dbname,
+        #     user=db_config.user,
+        #     password=db_config.password,
+        #     host=db_config.host,
+        #     port=db_config.port
+        # )
         return connection
     except Exception as error:
         print(f"Error connecting to database: {error}")
@@ -59,3 +60,13 @@ def get_sample_data(conn, schema_name, table_name, limit=2):
     except Exception as error:
         print(f"Error fetching rows for table {schema_name}.{table_name}: {error}")
         return [] 
+    
+def execute_query(query,conn):
+    try:
+        cur=conn.cursor()
+        cur.execute(query)
+        result=cur.fetchall()
+        return result
+    except Exception as error:
+        print(f"Error executing query: {error}")
+        return None
