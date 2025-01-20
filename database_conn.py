@@ -10,21 +10,13 @@ class DatabaseConfig(BaseModel):
   
 def connect_to_db():
     try:
-        # Connect to your postgres DB
         connection = psycopg2.connect(
-            dbname="dataquality",
-            user="postgres",
-            password="XS.dataops-postgres@321",
-            host="172.16.200.229",
-            port="30387"
+            dbname=db_config.dbname,
+            user=db_config.user,
+            password=db_config.password,
+            host=db_config.host,
+            port=db_config.port
         )
-        # connection = psycopg2.connect(
-        #     dbname=db_config.dbname,
-        #     user=db_config.user,
-        #     password=db_config.password,
-        #     host=db_config.host,
-        #     port=db_config.port
-        # )
         return connection
     except Exception as error:
         print(f"Error connecting to database: {error}")
