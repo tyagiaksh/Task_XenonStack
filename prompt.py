@@ -47,10 +47,20 @@ def get_sql_prompt():
         5. The dataset name is "Orders".
         6. The output should be in JSON format like this:
         output:
-        "[{"rule_name":"some name", "sql_query": "SELECT 'rule name' as Rule, 'true or false' as value FROM TABLE..."},
-        {"rule_name":"some name", "sql_query": "SELECT 'rule name' as Rule, 'true or false' as value FROM TABLE..."},
-        {"rule_name":"some name", "sql_query": "SELECT 'rule name' as Rule, 'true or false' as value FROM TABLE..."},
-        ...]"
+        [
+            {
+                "rule_name":"some name", 
+                "sql_query": "SELECT 'rule name' as Rule, 'true or false' as value FROM TABLE..."
+            },
+            {
+                "rule_name":"some name", 
+                "sql_query": "SELECT 'rule name' as Rule, 'true or false' as value FROM TABLE..."
+            },
+            {
+                "rule_name":"some name",
+                "sql_query": "SELECT 'rule name' as Rule, 'true or false' as value FROM TABLE..."
+            },
+        ]
         7. Make sure the results are valid JSON. 
     """
     return sql_prompt
