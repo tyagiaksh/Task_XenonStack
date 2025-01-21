@@ -1,5 +1,6 @@
 # Task_XenonStack
 #TASK 1 <br/>
+https://www.reddit.com/r/dataengineering/comments/1491swe/a_mustread_data_engineering_collection/
 First in Task 1 we have to create mannual linux command <br/>
 Section: A <br/>
 command: man ./internsctl.sh <br/>
