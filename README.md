@@ -1,5 +1,5 @@
-## Task_XenonStack
-#TASK 1 <br/>
+# Task_XenonStack
+## TASK 1 <br/>
 https://www.reddit.com/r/dataengineering/comments/1491swe/a_mustread_data_engineering_collection/
 First in Task 1 we have to create mannual linux command <br/>
 Section: A <br/>
@@ -28,7 +28,7 @@ command: ./internsctl.sh file getinfo --owner hello.txt <br/>
 command: ./internsctl.sh file getinfo --last-modified hello.txt <br/>
 <img width="959" alt="Screenshot 2024-01-10 125029" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/0ac43deb-826f-4d97-9a76-9f9baa91c861"> <br/>
 
-#TASK 2 <br/>
+## TASK 2 <br/>
 In this task we have to 
 1. Design Minimum 3 Pages as per Theme of your choice.<br/> <img width="960" alt="Screenshot 2024-01-10 162229" src="https://github.com/tyagiaksh/Task_XenonStack/assets/100216216/22efcfc6-17b6-4f6f-8535-616f5be16277"> <br/>
 
